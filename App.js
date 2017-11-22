@@ -10,7 +10,6 @@ import {
     StyleSheet,
     Text,
     View,
-    AppRegistry,
     Image,
 } from 'react-native';
 
@@ -56,6 +55,6 @@ class App extends Component<{}> {
         );
     }
 }
-AppRegistry.registerComponent('App', () => App);
+
 
 export default App

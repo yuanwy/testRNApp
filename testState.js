@@ -11,7 +11,6 @@ import {
     StyleSheet,
     Text,
     View,
-    AppRegistry,
     Image,
 } from 'react-native';
 
@@ -25,7 +24,7 @@ class testState extends Component<{}> {
 }
 
 // export default testState
-// AppRegistry.registerComponent('testState', () => testState);
+
 
 class Blink extends Component {
     constructor(props) {
@@ -61,6 +60,5 @@ class BlinkApp extends Component {
         );
     }
 }
-AppRegistry.registerComponent('BlinkApp', () => BlinkApp);
 export default BlinkApp
 

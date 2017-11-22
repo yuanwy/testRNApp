@@ -11,7 +11,6 @@ import {
     StyleSheet,
     Text,
     View,
-    AppRegistry,
     Image,
 } from 'react-native';
 
@@ -23,7 +22,7 @@ class testProps extends Component<{}> {
         );
     }
 }
-// AppRegistry.registerComponent('testProps', () => testProps);
+
 // export default testProps
 
 class Bananas extends Component {
@@ -37,7 +36,6 @@ class Bananas extends Component {
     }
 }
 
-// AppRegistry.registerComponent('Bananas', () => Bananas);
 // export default Bananas
 
 class Greeting extends Component {
@@ -61,6 +59,6 @@ class LotsOfGreetings extends Component<{}> {
         );
     }
 }
-AppRegistry.registerComponent('LotsOfGreetings', () => LotsOfGreetings);
+
 export default LotsOfGreetings
 

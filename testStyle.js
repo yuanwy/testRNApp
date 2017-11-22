@@ -7,7 +7,6 @@
 import React, {Component} from 'react';
 
 import {
-    AppRegistry,
     StyleSheet,
     Text,
     View
@@ -22,7 +21,7 @@ class testStyle extends Component<{}> {
 }
 
 // export default testStyle
-// AppRegistry.registerComponent('testStyle', () => testStyle);
+
 
 //在数组中位置居后的样式对象比居前的优先级更高，这样你可以间接实现样式的继承。
 class LotsOfStyles extends Component {
@@ -48,4 +47,3 @@ const styles = StyleSheet.create({
     },
 });
 export default LotsOfStyles
-AppRegistry.registerComponent('LotsOfStyles', () => LotsOfStyles);
