@@ -88,6 +88,11 @@ testRNApp is available under the MIT license. See the LICENSE file for more info
 <a name="types"></a>
 ## 类型
 
+  - [1.0](#1.0) <a name='1.0'></a> **基本命名规范**
+      + `js的class命名规范是驼峰AaBbCc`
+      + `js的function规范是aaBbCc`
+      + `js的组件命名规范是aa_bb_cc`
+
   - [1.1](#1.1) <a name='1.1'></a> **基本类型**: 直接存取基本类型。
 
     + `字符串`
